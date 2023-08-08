@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-# Author - Godswill Kalu
-for letter in range(97, 123):
-    if chr(letter) != 'q' and chr(letter) != 'e':
-        print("{}".format(chr(letter)), end="")
+number = 97
+while(number < 123):
+    if 113 == number or 101 == number:
+        number += 1
+        continue
+    print("{:s}".format(chr(number)), end='')
+    number += 1
